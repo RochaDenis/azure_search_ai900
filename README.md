@@ -5,13 +5,13 @@ This repository provides instructions for setting up a search index using Azure 
 ## Prerequisites
 - An Azure account with an active subscription. Sign up for a free account.
 - An Azure AI Search service of any tier and any region. Create a service or find an existing service under your current subscription.
-- Check for space. Many customers start with the free service tier. The free tier is limited to three indexes, three data sources, and three indexers. Make sure you have space for extra items before you begin[^1^][1].
+- Check for space. Many customers start with the free service tier. The free tier is limited to three indexes, three data sources, and three indexers. Make sure you have space for extra items before you begin.
 
 ## Step by Step
 
-1. **Start the wizard**: Log in to the Azure portal with your Azure account and navigate to your Azure AI Search service. On the Overview page, select Import data to start the wizard[^1^][1].
+1. **Start the wizard**: Log in to the Azure portal with your Azure account and navigate to your Azure AI Search service. On the Overview page, select Import data to start the wizard.
 
-2. **Connect to a data source**: The wizard creates a data source connection with sample data hosted by Microsoft in Azure Cosmos DB. You don't need your own Azure Cosmos DB account or source files to run this tutorial. Under Connect to your data, expand the Data Source dropdown and select Samples. From the built-in samples list, select hotels-sample. Select Next: Add Cognitive Skills (Optional) to continue[^1^][1].
+2. **Connect to a data source**: The wizard creates a data source connection with sample data hosted by Microsoft in Azure Cosmos DB. You don't need your own Azure Cosmos DB account or source files to run this tutorial. Under Connect to your data, expand the Data Source dropdown and select Samples. From the built-in samples list, select hotels-sample. Select Next: Add Cognitive Skills (Optional) to continue.
 
 3. **Skip configuring cognitive skills**: The Import data wizard supports creating a skillset and AI enrichment during indexing. For this tutorial, ignore the AI enrichment configuration options in the Add Cognitive Skills tab. Select Skip to: Customize target index to continue.
 
